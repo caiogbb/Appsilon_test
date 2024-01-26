@@ -66,14 +66,16 @@ The `time_series_function` is used to generate time series plots of species obse
 
 To facilitate the creation of the application, modularization of the application was considered, with the aim of fixing future bugs more quickly
 
-#### `filterModuleUI` and 'filterModule'
+#### `filterModuleUI` and `filterModule`
 
 The `filterModuleUI` and 'filterModule' are responsible for creating buttons and interacting data with the application, generating eventReactive and action buttons to make viewing more pleasant with just a few clicks on the screen.
 
-#### `mapModuleUI`, 'mapModule', 'timeSeriesModuleUI' and 'timeSeriesModule'
+#### `mapModuleUI`, `mapModule`, `timeSeriesModuleUI` and `timeSeriesModule`
 
-The `mapModuleUI`, 'mapModule', 'timeSeriesModuleUI' and 'timeSeriesModule' are responsible for making the app's buttons come to life, making the user consider viewing the species' location map and the time series of events presented for those species
+The `mapModuleUI`, `mapModule`, `timeSeriesModuleUI` and `timeSeriesModule` are responsible for making the app's buttons come to life, making the user consider viewing the species' location map and the time series of events presented for those species
 
-#### `mapModuleUI`, 'mapModule', 'timeSeriesModuleUI' and 'timeSeriesModule'
+#### `speciesCountModuleUI` and`speciesCountModule`
+
+The `speciesCountModuleUI`, `speciesCountModule` are responsible for calculating the number of observations that a given species was presented in the dataset
 
 
