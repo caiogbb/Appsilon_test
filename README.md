@@ -48,7 +48,7 @@ git clone https://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@github.com/caiogbb/Ap
 
 # Application infrastructure
 
-Open the `app.R` file in the RStudio editor. This is the main script that contains all the necessary libraries and code for the Biodiversity Analysis Shiny App.
+The `app.R` file is the main script that contains all the necessary libraries and code for the Biodiversity Analysis Shiny App.
 
 ## Main Functions
 
@@ -77,5 +77,12 @@ The `mapModuleUI`, `mapModule`, `timeSeriesModuleUI` and `timeSeriesModule` are 
 #### `speciesCountModuleUI` and`speciesCountModule`
 
 The `speciesCountModuleUI`, `speciesCountModule` are responsible for calculating the number of observations that a given species was presented in the dataset
+
+#### Comments abou `app.R`
+
+- It presents a structure considering the Shinydashboard, however, with the help of the fresh package, the entire Beautiful UI was modified to an interface different from the standard presented by Shinydashboard.
+
+- The main page does not remain blank for users, it was considered including a description together with an instruction on how the application should be used, and the explanation will be maintained during the use of the app to facilitate learning.
+
 
 
