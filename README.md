@@ -54,7 +54,7 @@ git clone https://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@github.com/caiogbb/Ap
 
 The data corresponding to this application contains information from the entire planet Earth, which corresponds to 22GB. Processing this data on a local machine is impractical.
 
-Therefore, to process this data set 'Spark' was used, the codes with the application in R are found in 'ETL'. In summary, the data is being loaded with the help of the 'sparklyr' package, after loading the data considering some jobs, a filter was carried out to select only species located in Poland. After this process, the filtered dataset was saved in CSV to be consumed by the App, resulting in a size of approximately 25MB.
+Therefore, to process this dataset `Spark` was used, the codes with the application in R are found in `ETL`. In summary, the data is being loaded with the help of the `sparklyr` package, after loading the data considering some jobs, a filter was carried out to select only species located in Poland. After this process, the filtered dataset was saved in CSV to be consumed by the App, resulting in a size of approximately 25MB.
 
 ## Main Functions
 
