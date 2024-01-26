@@ -13,7 +13,7 @@
 
 # Overview
 
-
+**Deploy Biodiversity Analysis Shiny App to shinyapps.io, to access the deployment see:**: https://gx1jfd-caio-balieiro.shinyapps.io/BioApp/
 
 **The App was deployed on AWS, to access the deployment see:**: http://3.144.225.25:3838/Appsilon_test/
 
