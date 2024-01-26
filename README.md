@@ -78,7 +78,7 @@ The `mapModuleUI`, `mapModule`, `timeSeriesModuleUI` and `timeSeriesModule` are 
 
 The `speciesCountModuleUI`, `speciesCountModule` are responsible for calculating the number of observations that a given species was presented in the dataset
 
-#### Comments abou `app.R`
+# Comments about `app.R`
 
 - It presents a structure considering the Shinydashboard, however, with the help of the fresh package, the entire Beautiful UI was modified to an interface different from the standard presented by Shinydashboard.
 
