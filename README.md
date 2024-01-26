@@ -19,12 +19,13 @@ Welcome to the Biodiversity Analysis Shiny App developed by Appsilon.
 
 # Completed Tasks
 
-- [x] Presented an application capable of searching for species by their vernacular name and scientific name
+- [x] Presented an application capable of searching for species by their vernacular name and scientific name.
+- [x] Presented the count of species that were observed
 - [x] Included a visualization of a timeline when selected species were observed
 - [x] Implemented the App using shinyModules
 - [x] Unit tests have been added for the most important functions and cover edge cases
-- [X] Beautiful UI Skill was made available using the help of the Fresh library, available on CRAN
-- [X] Infrastructure skill was developed, considering that the application was deployed on my personal machine on AWS
+- [x] Beautiful UI Skill was made available using the help of the Fresh library, available on CRAN
+- [x] Infrastructure skill was developed, considering that the application was deployed on my personal machine on AWS
       
 
 ## Instructions for New Developers
@@ -47,32 +48,9 @@ git clone https://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@github.com/caiogbb/Ap
 
 # Application infrastructure
 
-2. Open the `app.R` file in the RStudio editor. This is the main script that contains all the necessary libraries and code for the Biodiversity Analysis Shiny App.
+Open the `app.R` file in the RStudio editor. This is the main script that contains all the necessary libraries and code for the Biodiversity Analysis Shiny App.
 
-3. Look for the library installations at the top of the script. They may look like this:
-
-   ```R
-   # Install required packages if not already installed
-   required_packages <- c("shiny", "shinydashboard", "leaflet", "dplyr", "plotly", "shinyjs", "fresh", "sparklyr")
-
-   installed_packages <- installed.packages()
-   missing_packages <- required_packages[!(required_packages %in% installed_packages[, "Package"])]
-
-   if (length(missing_packages) > 0) {
-     install.packages(missing_packages, dependencies = TRUE)
-   }
-
-   # Load libraries
-   library(shiny)
-   library(shinydashboard)
-   library(leaflet)
-   library(dplyr)
-   library(plotly)
-   library(shinyjs)
-   library(fresh)
-   library(sparklyr)
-    ```
-### Main Functions
+## Main Functions
 
 The core functionality of the app is driven by two main functions defined in the `example.R` script:
 
@@ -83,5 +61,19 @@ The `mapa_function` is responsible for constructing a map of species based on la
 #### `time_series_function`
 
 The `time_series_function` is used to generate time series plots of species observation events over time. It relies on the plotly library to create dynamic and interactive time series graphs.
+
+## shiny Modules
+
+To facilitate the creation of the application, modularization of the application was considered, with the aim of fixing future bugs more quickly
+
+#### `filterModuleUI` and 'filterModule'
+
+The `filterModuleUI` and 'filterModule' are responsible for creating buttons and interacting data with the application, generating eventReactive and action buttons to make viewing more pleasant with just a few clicks on the screen.
+
+#### `mapModuleUI`, 'mapModule', 'timeSeriesModuleUI' and 'timeSeriesModule'
+
+The `mapModuleUI`, 'mapModule', 'timeSeriesModuleUI' and 'timeSeriesModule' are responsible for making the app's buttons come to life, making the user consider viewing the species' location map and the time series of events presented for those species
+
+#### `mapModuleUI`, 'mapModule', 'timeSeriesModuleUI' and 'timeSeriesModule'
 
 
