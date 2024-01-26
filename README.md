@@ -30,8 +30,8 @@
       
 ## Extra Tasks
 
-- [x] Beautiful UI Skill was made available using the help of the Fresh library, available on CRAN
-- [x] Infrastructure skill was developed, considering that the application was deployed on my personal machine on AWS (see, http://3.144.225.25:3838/Appsilon_test/)
+- [x] Beautiful UI Skill was made available using the help of the `fresh` library, available on `CRAN`
+- [x] Infrastructure skill was developed, considering that the application was deployed on my personal machine on `AWS` (see, http://3.144.225.25:3838/Appsilon_test/)
       
 
 # Instructions for New Developers
