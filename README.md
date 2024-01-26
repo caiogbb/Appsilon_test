@@ -1,4 +1,4 @@
-# Biodiversity Analysis Shiny App
+# Biodiversity Shiny App
 
 <div align="right">
   <img src="/logo.jpg" alt="Your Logo" width="200">
