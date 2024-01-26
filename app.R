@@ -62,11 +62,11 @@ ui <- dashboardPage(
                      "",
                      h2("Instructions:"),
                      "",
-                     h4(" 1 - In the top right corner there is a field called 'Choose the Scientific Name'. In this case, you can choose which Scientific Name you want to investigate on the map. To view, click on the button called 'Search for the Scientific Name' and then the points on the map where the species was found will be shown and just below the button the number of species that were found in Poland will be shown."),
+                     h4("In the top right corner there is a field called 'Choose name type'. In this case, you can choose whether you want to search the map for the ScientificName or vernacularName you want to investigate. Then, choose which species name in 'choose the name' you want to search for and when choosing, click on the button called 'Search by species' and the points on the map where the species was found will be shown and just below the button a timeline will be shown (time series) of the number of species that have been found in Poland."),
                      "",
-                     h4(" 2 - The same is true for searching for a vernacular name, in this case you can change it by considering the option 'Choose the vernacular name' in the upper right corner and after choosing, click on 'Search for the vernacular name' and the map and time series will be generated."),
+                     h4("2 - Note that the map and time series will only appear or update when you choose the vernacularName or scientificname option and the specific name and click the button! Only when you click the button will the results be shown!"),
                      "",
-                     h4(" 3 - Use without moderation! Enjoy exploring the species and send us your feedback about the app! Thank you")
+                     h4("3 - Use without moderation! Enjoy exploring the species and send us your feedback about the app! Thank you")
                  ),
                  
                  br(),br(),
