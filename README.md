@@ -43,5 +43,5 @@ If you are a new developer contributing to this project, follow these steps to s
 
 ```bash
 git clone https://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@github.com/caiogbb/Appsilon_test.git
-cd your-repo
+
 
