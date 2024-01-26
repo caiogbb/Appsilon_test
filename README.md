@@ -48,25 +48,23 @@ If you are a new developer contributing to this project, follow these steps to s
 git clone https://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@github.com/caiogbb/Appsilon_test.git
 ```
 
-## Application infrastructure
+# Application infrastructure
 
-### ETL process
+## ETL process
 
+The data corresponding to this application contains information from the entire planet Earth, which corresponds to 22GB. Processing this data on a local machine is impractical.
 
+Therefore, to process this data set 'Spark' was used, the codes with the application in R are found in 'ETL'. In summary, the data is being loaded with the help of the 'sparklyr' package, after loading the data considering some jobs, a filter was carried out to select only species located in Poland. After this process, the filtered dataset was saved in CSV to be consumed by the App, resulting in a size of approximately 25MB.
 
-
-
-The `app.R` file is the main script that contains all the necessary libraries and code for the Biodiversity Analysis Shiny App.
-
-### Main Functions
+## Main Functions
 
 The core functionality of the app is driven by two main functions defined in the `example.R` script:
 
-##### `mapa_function`
+#### `mapa_function`
 
 The `mapa_function` is responsible for constructing a map of species based on latitude and longitude information. It utilizes the `leaflet` library to create interactive and visually appealing maps.
 
-##### `time_series_function`
+#### `time_series_function`
 
 The `time_series_function` is used to generate time series plots of species observation events over time. It relies on the plotly library to create dynamic and interactive time series graphs.
 
@@ -74,15 +72,15 @@ The `time_series_function` is used to generate time series plots of species obse
 
 To facilitate the creation of the application, modularization of the application was considered, with the aim of fixing future bugs more quickly
 
-##### `filterModuleUI` and `filterModule`
+#### `filterModuleUI` and `filterModule`
 
 The `filterModuleUI` and 'filterModule' are responsible for creating buttons and interacting data with the application, generating eventReactive and action buttons to make viewing more pleasant with just a few clicks on the screen.
 
-##### `mapModuleUI`, `mapModule`, `timeSeriesModuleUI` and `timeSeriesModule`
+#### `mapModuleUI`, `mapModule`, `timeSeriesModuleUI` and `timeSeriesModule`
 
 The `mapModuleUI`, `mapModule`, `timeSeriesModuleUI` and `timeSeriesModule` are responsible for making the app's buttons come to life, making the user consider viewing the species' location map and the time series of events presented for those species
 
-##### `speciesCountModuleUI` and`speciesCountModule`
+#### `speciesCountModuleUI` and`speciesCountModule`
 
 The `speciesCountModuleUI`, `speciesCountModule` are responsible for calculating the number of observations that a given species was presented in the dataset
 
