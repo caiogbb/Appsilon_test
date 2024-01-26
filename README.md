@@ -21,7 +21,7 @@ Welcome to the Biodiversity Analysis Shiny App developed by Appsilon.
 
 
 
-# Completed Tasks
+## Completed Tasks
 
 - [x] Presented an application capable of searching for species by their vernacular name and scientific name.
 - [x] Presented the count of species that were observed
