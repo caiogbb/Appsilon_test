@@ -19,7 +19,7 @@
 **The App was deployed on Amazon Web Service (AWS), to access the deployment see:**: http://3.144.225.25:3838/Appsilon_test/
 
 
-## Business an Technical requirements (Main task)
+## Business and Technical requirements (Main task)
 
 - [x] Presented an application capable of searching for species by their vernacular name and scientific name.
 - [x] Presented the count of species that were observed
