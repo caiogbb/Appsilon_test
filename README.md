@@ -72,3 +72,16 @@ git clone https://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@github.com/caiogbb/Ap
    library(fresh)
    library(sparklyr)
     ```
+# Main Functions
+
+The core functionality of the app is driven by two main functions defined in the `example.R` script:
+
+### `mapa_function`
+
+The `mapa_function` is responsible for constructing a map of species based on latitude and longitude information. It utilizes the `leaflet` library to create interactive and visually appealing maps.
+
+### `time_series_function`
+
+The `time_series_function` is used to generate time series plots of species observation events over time. It relies on the plotly library to create dynamic and interactive time series graphs.
+
+
