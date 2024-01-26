@@ -84,5 +84,7 @@ The `speciesCountModuleUI`, `speciesCountModule` are responsible for calculating
 
 - The main page does not remain blank for users, it was considered including a description together with an instruction on how the application should be used, and the explanation will be maintained during the use of the app to facilitate learning.
 
+- Remember the application is deployed in the AWS cloud, that is, it is in production, any change in the `app.R` and `examples.R` and `example-Module.R` codes directly affects the deployment of the Model
+
 
 
