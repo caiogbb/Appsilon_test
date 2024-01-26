@@ -26,7 +26,7 @@
 - [x] Included a visualization of a timeline when selected species were observed
 - [x] Implemented the App using shinyModules
 - [x] Unit tests have been added for the most important functions and cover edge cases
-- [x] Deploy the BioApp to shinyapps.io
+- [x] Deploy the BioApp to shinyapps.io (see, https://gx1jfd-caio-balieiro.shinyapps.io/BioApp/)
       
 ## Extra - Beautiful UI and Infrastructure skill skill
 
