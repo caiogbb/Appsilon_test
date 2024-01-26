@@ -51,7 +51,6 @@ ui <- dashboardPage(
                  
                  useShinyjs(),  # Inicializa o shinyjs
                  
-                 # Elemento para mostrar antes de pressionar o botão
                  div(id = "introscreen",
                      
                      h2("Welcome to the application developed to analyze the Biodiversity of species in Poland"),
