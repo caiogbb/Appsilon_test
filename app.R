@@ -6,6 +6,30 @@ library(leaflet)
 library(dplyr)
 library(plotly)
 library(shinyjs)
+library(fresh)
+
+# Build UI/Ux designer of the App
+
+mytheme <- create_theme(
+  adminlte_color(
+    teal = "#008080",  
+    green = "#6FA761", 
+    light_blue = "#77B5FE",  
+    navy = "#002244",  
+    blue = "#2F4F4F" 
+  ),
+  adminlte_sidebar(
+    width = "400px",
+    dark_bg = "#004080",  
+    dark_hover_bg = "#002244",  
+    dark_color = "#FFFFFF"  
+  ),
+  adminlte_global(
+    content_bg = "#FFFFFF", 
+    box_bg = "#D3E4F9", 
+    info_box_bg = "#F0F8FF"  
+  )
+)
 
 
 # Load dataset for Shiny App
@@ -18,6 +42,9 @@ ui <- dashboardPage(
   dashboardHeader(title = "Appsilon - Biodiversity"),
   dashboardSidebar(disable = TRUE),
   dashboardBody(
+    
+    use_theme(mytheme),
+    
     fluidRow(
       column(width = 9,
              box(width = NULL, solidHeader = TRUE,
@@ -58,7 +85,7 @@ ui <- dashboardPage(
              
              box(width = NULL, status = "info", 
                  speciesCountModuleUI('speciesCountModule')
-        )
+             )
       )
     )
   )
