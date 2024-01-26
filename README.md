@@ -44,4 +44,30 @@ If you are a new developer contributing to this project, follow these steps to s
 ```bash
 git clone https://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@github.com/caiogbb/Appsilon_test.git
 
+# Application infrastructure
+
+2. Open the `app.R` file in the RStudio editor. This is the main script that contains all the necessary libraries and code for the Biodiversity Analysis Shiny App.
+
+3. Look for the library installations at the top of the script. They may look like this:
+
+   ```R
+   # Install required packages if not already installed
+   required_packages <- c("shiny", "shinydashboard", "leaflet", "dplyr", "plotly", "shinyjs", "fresh", "sparklyr")
+
+   installed_packages <- installed.packages()
+   missing_packages <- required_packages[!(required_packages %in% installed_packages[, "Package"])]
+
+   if (length(missing_packages) > 0) {
+     install.packages(missing_packages, dependencies = TRUE)
+   }
+
+   # Load libraries
+   library(shiny)
+   library(shinydashboard)
+   library(leaflet)
+   library(dplyr)
+   library(plotly)
+   library(shinyjs)
+   library(fresh)
+   library(sparklyr)
 
