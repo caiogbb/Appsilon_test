@@ -28,7 +28,7 @@
 - [x] Unit tests have been added for the most important functions and cover edge cases
 - [x] Deploy the BioApp to shinyapps.io
       
-**Extra**
+## Extra Tasks
 
 - [x] Beautiful UI Skill was made available using the help of the Fresh library, available on CRAN
 - [x] Infrastructure skill was developed, considering that the application was deployed on my personal machine on AWS (see, http://3.144.225.25:3838/Appsilon_test/)
