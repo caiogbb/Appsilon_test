@@ -64,7 +64,7 @@ The `mapa_function` is responsible for constructing a map of species based on la
 
 The `time_series_function` is used to generate time series plots of species observation events over time. It relies on the plotly library to create dynamic and interactive time series graphs.
 
-## shiny Modules
+## Shiny Modules
 
 To facilitate the creation of the application, modularization of the application was considered, with the aim of fixing future bugs more quickly
 
