@@ -1,7 +1,7 @@
 # Biodiversity Analysis Shiny App
 
 <div align="right">
-  <img src="/logo.jpg" alt="Your Logo" width="250">
+  <img src="/logo.jpg" alt="Your Logo" width="200">
 </div>
 
 Welcome to the Biodiversity Analysis Shiny App developed by Appsilon.
