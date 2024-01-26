@@ -4,6 +4,7 @@ mapa_function <- function(x){
   
   'mapa_function: It is a function that builds graphs using the latitude and longitude of where the species were observed.'
   'x: The dataframe contain latitude and longitude and names of species'
+  'return: Map of species (leaflet class)'
   
   fig <- leaflet(x) %>%
     addTiles() %>%
@@ -16,6 +17,7 @@ time_series_function <- function(time){
   
   'time_series_function: It is a function that builds time series graphs of species observation events over time'
   'time: The dataframe that contains the count of observed species and the date'
+  'return: Time series graph of species (plotly class)'
   
   time$eventDate <- as.Date(as.character(time$eventDate), format = "%Y-%m-%d")
   
