@@ -13,7 +13,7 @@ filterModuleUI <- function(id) {
 filterModule <- function(input, output, session, data) {
   ns <- session$ns
   
-  # Crie vetores contendo scientificName e vernacularName
+  # Create vectors with scientificName e vernacularName
   namesscientific <- sort(unique(data$scientificName))
   namesvernacular<- sort(unique(data$vernacularName))
   namesvernacular <- namesvernacular[-1]
