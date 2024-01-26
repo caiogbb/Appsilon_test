@@ -50,6 +50,12 @@ git clone https://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@github.com/caiogbb/Ap
 
 ## Application infrastructure
 
+### ETL process
+
+
+
+
+
 The `app.R` file is the main script that contains all the necessary libraries and code for the Biodiversity Analysis Shiny App.
 
 ### Main Functions
