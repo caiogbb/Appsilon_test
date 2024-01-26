@@ -18,7 +18,6 @@
 
 **The App was deployed on Amazon Web Service (AWS), to access the deployment see:**: http://3.144.225.25:3838/Appsilon_test/
 
-br()
 
 ## Completed Tasks
 
