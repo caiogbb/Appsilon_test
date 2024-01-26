@@ -38,7 +38,7 @@ time_series_function <- function(time){
 }
 
 test_that("mapa_function produces expected output", {
-  # Create a sample dataframe
+  
   sample_data <- data.frame(
     latitudeDecimal = c(40.7128, 34.0522, 41.8781),
     longitudeDecimal = c(-74.0060, -118.2437, -87.6298),
@@ -46,7 +46,6 @@ test_that("mapa_function produces expected output", {
   )
   
   map_figure <- mapa_function(sample_data)
-
   expect_true(inherits(map_figure, "leaflet"))
   
 
@@ -59,7 +58,6 @@ test_that("time_series_function produces expected output", {
   )
   
   plot_figure <- time_series_function(sample_data)
-
   expect_true(inherits(plot_figure, "plotly"))
   
 })
