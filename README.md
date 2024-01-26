@@ -6,11 +6,6 @@
 
 Welcome to the Biodiversity Analysis Shiny App developed by Appsilon.
 
-<div align="center">
-  <img src="app.png" alt="Biodiversity App Screenshot" width="800">
-</div>
-
-
 
 
 # Overview
