@@ -6,11 +6,11 @@
 
 Welcome to the Biodiversity Analysis Shiny App developed by Appsilon.
 
-## Overview
+# Overview
 
 **The App was deployed on AWS, to access the deployment see:**: http://3.144.225.25:3838/Appsilon_test/
 
-## Completed Tasks
+# Completed Tasks
 
 - [x] Presented an application capable of searching for species by their vernacular name and scientific name
 - [x] Included a visualization of a timeline when selected species were observed
